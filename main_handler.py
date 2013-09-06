@@ -173,7 +173,7 @@ class MainHandler(webapp2.RequestHandler):
             'displayName': 'Python Starter Project',
             'id': 'PYTHON_STARTER_PROJECT'
         },
-        'text': 'Tell me what you had for lunch :)',
+        'text': 'What is your favorite animal?:)',
         'notification': {'level': 'DEFAULT'},
         'menuItems': [{'action': 'REPLY'}]
     }
@@ -191,7 +191,7 @@ class MainHandler(webapp2.RequestHandler):
       return 'Total user count is %d. Aborting broadcast to save your quota' % (
           total_users)
     body = {
-        'text': 'Hello Everyone!',
+        'text': 'Hello Reptoids! Sisterhood is powerful!',
         'notification': {'level': 'DEFAULT'}
     }
 
